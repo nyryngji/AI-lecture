@@ -12,6 +12,8 @@
 - **pip -V** : pip버전 확인 
 - **python -m pip install --upgrade pip** : pip 업그레이드
 - **python -> python -c "문장"** : 파이썬이 잘 실행되는지 테스트
+- **pip search 패키지명** : 자신이 설치 가능한 패키지 버전 확인 가능(오류 남)
+- **pip install 패키지명==버전** : 해당 버전의 패키지 설치
 <br>
 
 > **venu 가상환경 생성**
@@ -26,11 +28,12 @@
 <br>
 
 > **콘다 가상환경 설정** 
-- 1. **conda create -n 이름** : 가상환경 만들기
+- 1. **conda create -n 이름 패키지명** : 가상환경 만들기 (패키지 이름까지 쓰면 가상환경에 패키지가 포함돼서 생성)
 - 2. **conda info -e(=conda env list)** : 현재 가상환경 목록 출력
-- 3. **conda activate cnum** : 가상환경 활성화 
+- 3. **conda activate 가상환경명** : 가상환경 활성화 (들어가기) 
 - 4. **conda list 패키지 이름** : 패키지 목록 출력
 - 5. **conda install python=3.8.13** : 패키지 설치 
 - 6. **conda --version** : 현재 콘다 버전 확인 
 - 7. **conda uninstall(=remove)** : 설치된 패키지 삭제 
 - 8. **conda env remove -n 가상환경 이름** : 가상환경 삭제 
+- 9. **conda search 패키지명** : 자신이 설치 가능한 패키지 버전 확인 가능
