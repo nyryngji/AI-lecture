@@ -1,23 +1,32 @@
-## 깃 명령어
+## git 명령어
 
-> **기본**
-- **pwd** : 현재 자기가 위치하고 있는 폴더 확인 
-- git --help : 도움말 보기 
-- git --version : 버전 보기 
-- git config --list : 전체 설정 확인 (로컬, 전역 저장소 이름, 이메일 확인 가능)
+> **기초**
+- pwd : 현재 자신이 있는 디렉토리를 보여줌
+- cd 디렉토리 이름 : 다른 디렉토리로 이동
+
+    - cd .. : 현재 위치하고 있는 폴더의 상위폴더로 이동
+
+- rm -rf 디렉토리 이름: 디렉토리 삭제 
+- ls -a : 현재 디렉토리 안에 있는 파일 목록 출력 ex) ./(현재 폴더)  ../(부모 폴더)  abc/
+- ls -al : 현재 디렉토리 하부 파일 목록을 자세히 출력 ex) drwxr-xr-x 1 amysm 197609 0 Sep 15 10:31 abc/
+- ~ : 현재 로그인 한 계정 이름 출력 ex) bash: /c/Users/amysm: Is a directory &#10024; 
+- git --version(-v) : 깃 버전 확인
 <br>
 
-> **사용자 설정**
-- git config --global user.name(email) 사용할 이름/이메일 : 모든 git 작업에 사용할 이름과 이메일을 입력 (전역 저장소) 
-- git config user.name(email) 이름/이메일 : 현재 저장소에서만 사용할 이름과 이메일 입력 (로컬 저장소)
-- git config --global --unset user.name(email) : 전역 저장소 이름(이메일) 삭제
-- git config --unset user.name(email) : 로컬 저장소 이름(이메일) 삭제
-    + 로컬 저장소 이름과 이메일을 삭제해도 전역 저장소에 이름과 이메일이 남아있다면 그 값으로 출력됨
-<br>
+> **git config**
+- cat ~/.gitconfig : 전체 설정 파일을 화면에 출력
+- cat .git/config : 지역 저장소 설정 파일 내용 출력
+- git init 폴더 이름 : 저장소 생성 
+- git config user.name(email): 지역 저장소 사용자 설정 &#10024; 
+- git config --list : 전체 설정 확인
+- git config --global user.name(email) ~ : 깃 전체 사용자 설정
+- git config --global core.autocrlf true : 맥과 윈도 간의 자동 변환 &#10024; 
+- git config --global core.safecrlf false : 뉴라인 경고 발생 없애기
+- git config --global core.editor notepad : 편집기 환경 설정
+- git config --global core.editor 'code --wait' : 환경 설정 확인 
+- git config --global -l : 환경 설정 간단히 출력 ex)user.name/email
+- git config --global init.defaultbranch main : 브랜치 이름 바꾸기(전역 전체 설정에서 지정 가능)
+- git config --global -e : 지역 설정 파일을 열어 수정할 수 있게 편집기 열기 
 
-> **폴더**
-- mkdir 폴더 이름 : 폴더 만들기 
-- cd 폴더 이름 : 해당 폴더로 이동 
-- git init : 폴더를 git repository로 만들기 (그래야 버전 관리 가능)
-- cd .. : 해당 폴더를 빠져나와 상위 폴더로 이동 
-- cd 폴더 이름 : 해당 폴더로 이동   
+    - --global은 전역 설정 파일을 보여줌 &#10024;
+<br>
