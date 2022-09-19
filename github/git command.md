@@ -30,3 +30,18 @@
 
     - --global은 전역 설정 파일을 보여줌 ✨
 <br>
+
+> **버전 관리**
+- echo > 내용 : 기존에 있던 내용 삭제 후 새로운 내용 추가
+- echo >> 내용 : 기존 내용 뒤에 마지막으로 추가
+- git status (-s) : 현재 상태 보기 (간단하게 표시)
+    
+    - untracked 파일은 빨간색 물음표 2개로, 처음 커밋된 건 녹색 A로 표현
+
+- git add : staging area에 저장 (untracked -> tracked)
+- git commit -m '메시지' : commit 하기 (git repository로 이동)
+- git commit -am '메시지' : add, commit을 한 번에 하기 
+- git log(--oneline) : 커밋 이력(40개의 16진수)을 출력 (간단하게 한 줄로 표시)
+- git show : 
+- git show head^ : 제일 최근 커밋 바로 이전의 커밋에 대한 정보 표시
+- git config --global alias.명령어 이름 '원래 이름' : 명령어의 별칭 저장
