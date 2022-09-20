@@ -42,6 +42,10 @@
 - git commit -m '메시지' : commit 하기 (git repository로 이동)
 - git commit -am '메시지' : add, commit을 한 번에 하기 
 - git log(--oneline) : 커밋 이력(40개의 16진수)을 출력 (간단하게 한 줄로 표시)
-- git show : 
+- git log head : 가장 최근 커밋 이력 출력
+- git show : 현재 브랜치의 가장 최근 커밋 정보 확인
 - git show head^ : 제일 최근 커밋 바로 이전의 커밋에 대한 정보 표시
+
+    - ^ : 이전이라는 의미 (^^는 이전의 전을 의미)
+
 - git config --global alias.명령어 이름 '원래 이름' : 명령어의 별칭 저장
