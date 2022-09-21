@@ -8,8 +8,8 @@
 
 - rm -rf 디렉토리 이름: 디렉토리 삭제 
 - ls -a : 현재 디렉토리 안에 있는 파일 목록 출력 ex) ./(현재 폴더)  ../(부모 폴더)  abc/
-- ls -al : 현재 디렉토리 하부 파일 목록을 자세히 출력 ex) drwxr-xr-x 1 amysm 197609 0 Sep 15 10:31 abc/
-- ~ : 현재 로그인 한 계정 이름 출력 ex) bash: /c/Users/amysm: Is a directory ✨ 
+- ls -al : 현재 디렉토리 하부 파일 목록을 자세히 출력 
+- ~ : 현재 로그인 한 계정 이름 출력 ✨ 
 - git --version(-v) : 깃 버전 확인
 <br>
 
@@ -24,7 +24,7 @@
 - git config --global core.safecrlf false : 뉴라인 경고 발생 없애기
 - git config --global core.editor notepad : 편집기 환경 설정
 - git config --global core.editor 'code --wait' : visual studio code로 파일 열기
-- git config --global -l : 환경 설정 간단히 출력 ex)user.name/email
+- git config --global -l : 환경 설정 간단히 출력
 - git config --global init.defaultbranch main : 브랜치 이름 바꾸기(전역 전체 설정에서 지정 가능)
 - git config --global -e : 지역 설정 파일을 열어 수정할 수 있게 편집기 열기 
 
