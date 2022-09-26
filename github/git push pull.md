@@ -28,8 +28,32 @@
   **-->** working과 staging에 있는 파일이 같기 때문 
   
   <br>
-  
-  > **파일 복구**
+
+> **파일 복구**
   - git restore --staged 파일.py : staging area를 이전으로 복구
-  
-  
+<br>
+
+> **다양한 commit 정보 확인**
+- git log head^ : 이전 커밋부터 모든 커밋 내역 출력
+
+- git log --pretty=short : git log에서 날짜만 없어짐
+
+- git log --patch : git log + git show (모든 로그에서 수정한 줄을 비교)
+
+- git log --stat : 통계정보를 보여줌  
+
+- git show : 하나의 파일에 대한 수정 이력까지 보여줌
+<br>
+
+> **원격 저장소 복제와 수정내용 가져오기**
+
+- git clone 저장소 주소 (이름): 저장소를 그대로 복제
+
+  📌 이름을 붙이면 새 폴더를 만들고 거기에 저장소 복제
+
+- git remote : 원격 저장소 별칭 이름 조회
+
+- git remote -v : 원격 저장소 별칭 이름 세부 조회
+
+- git pull : 복사한 깃 저장소가 수정되면 그걸 수정
+
