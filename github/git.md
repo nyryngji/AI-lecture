@@ -40,7 +40,7 @@
 <br>
 
 > **git**
-- 소스코드 관리를 위한 분산 버전 관리 시스템
+- 소스코드 관리를 위한(컴퓨터 파일의 변경을 추적) 분산 버전 관리 시스템
 
 - 리누스 토발즈(리눅스 개발자)가 개발
 
@@ -54,13 +54,13 @@
 
 - 작업 공간(working space)
 
-     - modified : 
+     - modified : 수정된 파일 
      
      - untracked : 맨 처음 만든 파일
      
 - 스테이징 영역(staging area, index) : 본격적인 버전 관리 시작
 
-- 저장소(git repository)
+- 저장소(git repository) : commited 
 
 <br>
 
@@ -76,7 +76,9 @@
 <br>
 
 > **git SW**
-- git bash(CLI) : 명령행 인터페이스
+- git bash(CLI) : 명령행 인터페이스 
+
+     - bash(=Bourne Again Shell) : 유닉스 쉘 프로그램인 sh의 확장판
 
 - git GUI
 
@@ -132,3 +134,5 @@
 - 기능 기반 워크플로우: 작업 중인 새 기능에 대해 분기를 만들어 해당 분기를 원활히 전환 
 
      - 메인에 병합 시 각 분기 삭제 
+<br>
+
