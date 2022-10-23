@@ -15,7 +15,7 @@
 
 > **git config**
 - cat ~/.gitconfig : 전체 설정 파일을 화면에 출력
-- cat .git/config : 지역 저장소 설정 파일 내용 출력
+- cat .git/config : 지역 설정 파일 내용 출력
 - git init 폴더 이름 : 저장소 생성  
 - git config --list : 전체 설정 확인
 - git config --global user.name(email) ~ : 깃 전체 사용자 설정
@@ -29,9 +29,9 @@
 - git config --global core.editor notepad : 편집기 환경 설정 (메모장으로 파일 열기)
 - git config --global core.editor 'code --wait' : visual studio code로 파일 열기
 - git config --global -l : 환경 설정 간단히 출력
+- git config -l : 모든 설정 내용 출력
 - git config --global init.defaultbranch main : 브랜치 이름 바꾸기(전역 전체 설정에서 지정 가능)
 - git config -e : 지역 설정 파일을 열어 수정할 수 있게 편집기 열기 
-
 - git config --global -e : 현재 전역 설정 파일을 열어 편집
 
     - --global은 전역 설정 파일을 보여줌 ✨
