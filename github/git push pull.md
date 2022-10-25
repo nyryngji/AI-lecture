@@ -38,6 +38,8 @@
 
 - git log --pretty=short : git log에서 날짜만 없어짐
 
+- git log --pretty=oneline : git log --oneline에서 날짜만 제거
+
 - git log --patch : git log + git show (모든 로그에서 수정한 줄을 비교)
 
 - git log --stat : 통계정보를 보여줌  
