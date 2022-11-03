@@ -53,8 +53,27 @@
 > 
 
     <img src="/path/to/img.jpg" width=숫자 height=숫자></img>
+
+- **인용문**
+> 
+
+    > Hello, welcome my github!
+
+- **순서 없는 리스트**
+>
+
+    - First item
+    - Second item
+    - Third item
     
+- **링크 삽입**
+>
  
+    <https://www.naver.com> -> 해당 링크의 URL이 화면에 나타남
+    책 구매는, [교보문고](www.kyobobook.co.kr)에서!  -> 책 구매는 교보문고에서! (교보문고 글자 클릭 시 해당 페이지로 이동)
+
+
 > **참조 링크**
 
-- https://daringfireball.net/projects/markdown/ : 애플 고위 위원이 게스트로 출연하는 팟캐스트
+- [daring fireball](https://daringfireball.net/projects/markdown) : 애플 고위 위원이 게스트로 출연하는 팟캐스트
+- [마크다운 가이드](https://www.markdownguide.org/basic-syntax)
