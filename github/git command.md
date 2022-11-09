@@ -52,6 +52,7 @@
     - 어느 시점의 파일 추가/변경 사항을 저장소에 기록
 
 - git commit -am '메시지' : add, commit을 한 번에 하기 
+- git commit --amend : 커밋 메시지 바꾸기 
 - git log(--oneline) : 커밋 이력(40개의 16진수)을 출력 (간단하게 한 줄로 표시)
 - git log head : 가장 최근 커밋 이력 출력
 - git show : 현재 브랜치의 가장 최근 커밋 정보 확인
