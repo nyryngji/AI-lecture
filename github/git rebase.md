@@ -29,7 +29,12 @@
 
 - **git rebase --continue** : 
 
-- **git rebase -i head~4** : head~3부터 수정 가능 
+- **git rebase -i head~4** : 수정할 커밋이 여러 개일때 사용 
+  
+  - pick : 
+  - reword 
+  - squash 
+  - drop
 <br>
 
 > **rebase 충돌 시 해결방법**
