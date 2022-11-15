@@ -4,6 +4,8 @@
 
 - **git rebase [브랜치명]** : [브랜치명]에 해당하는 커밋 이력을 모아놓은 이후에 현재 위치해있는 브랜치의 커밋이력을 정렬
 
+  - 베이스를 재배치
+
   - **BEFORE**
   
   <img width="391" alt="캡처" src="https://user-images.githubusercontent.com/105197496/200976074-f644cd73-23f1-4904-b40f-4a5073258a80.PNG">
