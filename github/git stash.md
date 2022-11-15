@@ -17,6 +17,8 @@
 
 - **git stash (-m '메시지')** : 임시 저장
 
+- **git stash branch [브랜치명]** : 
+
 - **git stash list** : git stash에 몇 개의 stash가 존재하는지 출력
 
   <img width="488" alt="캡처" src="https://user-images.githubusercontent.com/105197496/200762017-2f6b3cde-225e-4b9b-a6e5-888d8e842f3b.PNG">
