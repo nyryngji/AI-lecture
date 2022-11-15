@@ -35,3 +35,14 @@
   - 무조건 3- way merge에서만 
 
 - **git merge --squash** : 
+
+- **git branch --merged** : 병합된 브랜치 목록 보기 
+ 
+  <img width="410" alt="캡처" src="https://user-images.githubusercontent.com/105197496/201929098-535d27e0-f4ff-43a3-a7c1-2d706980fc7c.PNG">
+
+- **git branch --no-merged** : 병합되지 않은 브랜치 목록 보기
+
+- **git reset --hard head^** : 바로 전 병합 취소
+
+  <img width="410" alt="캡처2" src="https://user-images.githubusercontent.com/105197496/201929993-0b2a1128-eade-4c46-b92a-39be50d4148e.PNG">
+
