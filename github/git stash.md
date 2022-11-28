@@ -17,7 +17,7 @@
 
 - **git stash (-m '메시지')** : 임시 저장
 
-- **git stash branch [브랜치명]** : 
+- **git stash branch [브랜치명]** : 새로운 브랜치를 만들고 임시저장 후 적용된 임시저장 삭제
 
 - **git stash list** : git stash에 몇 개의 stash가 존재하는지 출력
 
@@ -25,7 +25,8 @@
 
 - **git stash show** : 현재 working directory와 stash의 비교
 
-  <img width="488" alt="캡처" src="https://user-images.githubusercontent.com/105197496/200762144-fa057b3e-f7b9-4686-98da-d6ee09154d32.PNG">
+  <img width="429" alt="캡처" src="https://user-images.githubusercontent.com/105197496/204323239-e9b21fd2-fea2-4a14-8c39-d612f28337cf.PNG">
+
 
 - **git stash show -p** : git stash show를 더 자세히 보여줌
 
@@ -49,10 +50,10 @@
 
 - **git stash apply --keep-index** : 현재 상태에서 staging area는 남기고 WD만 임시저장
 
-- **git stash --include-untracked** : 
+- **git stash --include-untracked** : untracked 파일 임시 저장
 <br>
 
-- **git stash drop** : 맨 마지막 stash목록 삭제
+- **git stash drop** : stash@{0} 삭제
 
   - **git stash drop stash@{숫자}** : 해당 번호 stash 목록 삭제 (목록이 0부터 시작함)
 
