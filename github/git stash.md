@@ -59,8 +59,16 @@
 
 - **git stash clear** : stash 목록 전부 날리기
 
+  <img width="458" alt="캡처" src="https://user-images.githubusercontent.com/105197496/204952299-75f3eb23-c75f-47e8-a6b2-05a832e4caa1.PNG">
+
+
 - **git clean(-f)** : untracked 파일 삭제(강제 삭제)
 
 - **git clean -n** : 만약에 지우면 무슨 파일이 지워지는지 확인 
 
+  <img width="459" alt="캡처" src="https://user-images.githubusercontent.com/105197496/204952477-a6d245be-7522-4a51-9fe8-6a55851b1e3e.PNG">
+
 - **git clean -i** : git clean에 대한 옵션 6가지를 제시 후 선택 가능하게 함 
+
+  <img width="457" alt="캡처" src="https://user-images.githubusercontent.com/105197496/204952819-aab1da61-64e6-4ec2-9854-720cf4554eb8.PNG">
+
